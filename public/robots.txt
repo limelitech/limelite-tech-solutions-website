@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://limelite-tech-solutions-website.vercel.app/sitemap.xml
