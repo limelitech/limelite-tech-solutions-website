@@ -359,16 +359,43 @@ function App() {
               </h2>
 
               <p className="mt-6 leading-8 text-slate-600">
-                Limelite Tech Solutions is a technology company focused on
-                developing innovative software, digital products and reliable
-                IT solutions that solve real-world business challenges.
+                Limelite Tech Solutions is a Nairobi-based technology and
+                software development company founded in 2023. We deliver
+                innovative digital products and reliable IT solutions that
+                help businesses, startups and organisations solve real-world
+                challenges.
               </p>
 
               <p className="mt-4 leading-8 text-slate-600">
-                We combine creativity, technical expertise and a
-                business-oriented approach to help organizations embrace
-                technology, improve operations and achieve sustainable growth.
+                Our services include web and mobile application development,
+                custom software, POS and inventory management systems,
+                e-commerce, cloud hosting, UI/UX design, cybersecurity and
+                IT consultancy. We combine technical expertise, creativity
+                and a business-focused approach to build secure, scalable
+                solutions that improve operations and support growth.
               </p>
+
+              <div className="mt-8 rounded-2xl border border-blue-100 bg-[#f1f7ff] p-6">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-blue-600 text-white">
+                    <Cpu size={27} />
+                  </div>
+
+                  <div>
+                    <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-blue-600">
+                      Founder, Owner & Chief Executive Officer
+                    </p>
+                    <h3 className="heading-font mt-1 text-xl font-extrabold text-[#102c50]">
+                      Kevin Kathei Mutunga
+                    </h3>
+                    <p className="mt-1 text-sm leading-6 text-slate-600">
+                      Founder and CEO of Limelite Tech Solutions, leading the
+                      company's commitment to practical, reliable and
+                      forward-thinking technology solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
               <a
                 href="#contact"
